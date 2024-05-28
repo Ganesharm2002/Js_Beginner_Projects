@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container{
+    height: 70vh;
+    width: 70vw;
+    background-image: url(images/tree.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+}
+#quote{
+    color:rgb(25, 234, 21);
+    position: absolute;
+    top: 30%;
+    margin:5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    
+
+    background-color: #fff;
+}
+#generate-quote{
+    position: absolute;
+    top: 90%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+}
